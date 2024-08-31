@@ -1,0 +1,10 @@
+**##MODIFY_PRIVAPPS_PRERMISSIONS_CONTROLLER_STATUS_SETTINGS
+##INCLUDE_ALL!:
+<#/!ENABLE_ANDROID_GOOGLE_PRIVAPPS_DOWNLOAD_INSTALLER
+$release-keys
+{
+  "binary_image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features=!": $rootfs%prefix%*!
+  <!/'
+  }
+}
